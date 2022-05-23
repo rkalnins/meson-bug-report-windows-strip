@@ -1,0 +1,4 @@
+build/
+dist/
+
+.mesonpy-native-file.ini

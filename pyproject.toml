@@ -1,0 +1,22 @@
+[project]
+name = "wintest"
+description = "bug report"
+readme = 'README.md'
+version = '2022.0.0'
+authors = [
+    {name = "Roberts Kalnins", email = "rkalnins@umich.edu"},
+]
+project-urls = []
+requires-python = ">=3.8"
+dependencies = []
+
+[build-system]
+build-backend = 'mesonpy'
+requires = [
+    "meson-python",
+    "Cython>=0.29.18",
+    "wheel",
+    "meson",
+    "ninja",
+    "pep621",
+]
