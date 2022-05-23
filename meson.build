@@ -2,7 +2,6 @@ project('dcmu', 'c', 'cython', default_options : ['buildtype=release', 'c_std=c9
 
 cython = find_program('cython')
 
-cmake = import('cmake')
 py = import('python').find_installation()
 py_dep = py.dependency()
 
